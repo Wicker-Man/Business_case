@@ -15,7 +15,9 @@ export class FormDashboardLoginComponent implements OnInit {
   }
 
   validerForm() {
-    console.log("adresse email saisie : " + this.email);
-    
+    console.log("adresse email saisie : " + this.email)
+
+      ;
+
   }
 }

@@ -6,7 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormDashboardLoginComponent } from './form-dashboard-login/form-dashboard-login.component';
 import {Dashboard1Component} from './dashboard1/dashboard1.component'
-import {Dashboard2Component} from './dashboard2/dashboard2.component'
+import {Dashboard2Component} from './dashboard2/dashboard2.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import {Dashboard2Component} from './dashboard2/dashboard2.component'
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

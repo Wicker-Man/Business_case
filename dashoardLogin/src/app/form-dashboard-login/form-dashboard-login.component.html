@@ -1,10 +1,20 @@
-<form (ngSubmit)="validerForm()" #formDashboardLogin="ngForm">
+<form
+  class="text-center border border-light p-5"
+  (ngSubmit)="validerForm()"
+  #formDashboardLogin="ngForm"
+>
+  <p class="h4 mb-4">Sign in</p>
+
   <input type="email" [(ngModel)]="email" name="email" required />
   <input type="password" [(ngModel)]="password" name="password" required />
 
-  <input
+
+  
+  <input 
     type="submit"
     value="Enregistrer"
     [disabled]="!formDashboardLogin.valid"
   />
 </form>
+
+
